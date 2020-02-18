@@ -31,6 +31,15 @@ public class Calculate {
         System.out.print("\nDifference: " + diff);
 
         return diff;
+    }
+
+    public static int product(int x, int y){
+        int prod = 0;
+
+        prod = x * y;
+        System.out.print("\nProduct: " + prod);
+
+        return prod;
 
     }
 
