@@ -13,6 +13,7 @@ public class Calculate {
 
         add(x,y);
         subtract(x,y);
+        product(x,y);
     }
 
     public static int add(int x, int y){
