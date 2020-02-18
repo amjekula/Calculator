@@ -12,15 +12,26 @@ public class Calculate {
         int y = input.nextInt();
 
         add(x,y);
+        subtract(x,y);
     }
 
     public static int add(int x, int y){
         int sum = 0;
 
-        sum = x + y;
-        System.out.print("\nSum: " + sum);
+            sum = x + y;
+            System.out.print("\nSum: " + sum);
 
         return sum;
+    }
+
+    public static int subtract(int x, int y){
+        int diff = 0;
+
+        diff = x - y;
+        System.out.print("\nDifference: " + diff);
+
+        return diff;
+
     }
 
 }
