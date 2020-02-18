@@ -14,6 +14,7 @@ public class Calculate {
         add(x,y);
         subtract(x,y);
         product(x,y);
+        qoutient(x,y);
     }
 
     public static int add(int x, int y){
@@ -41,6 +42,16 @@ public class Calculate {
         System.out.print("\nProduct: " + prod);
 
         return prod;
+
+    }
+
+    public static double qoutient(int x, int y){
+        double qou = 0;
+
+        qou = x / y;
+        System.out.printf("\nQoutient: " + "%.1f%n", qou);
+
+        return qou;
 
     }
 
